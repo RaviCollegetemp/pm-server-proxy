@@ -4,7 +4,7 @@ const socketMain = (io) => {
     const auth = socket.handshake.auth;
     if (auth.token == "aaeygaotohmodihe") {
       socket.join("nodeClient");
-    } else if (auth.token == "harharmodi") {
+    } else if (auth.token == "aidofh;aoidsh;aihdf") {
       socket.join("reactClient");
     } else {
       socket.disconnect();
